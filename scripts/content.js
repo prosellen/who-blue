@@ -9,7 +9,7 @@ async function isBlue() {
   checkmark.click();
   // wait for a bit
   await wait(50);
-  const blueText = Array.from(document.querySelectorAll('span')).find(span => span.innerText.includes('subscribed to Twitter Blue'));
+  const blueText = Array.from(document.querySelectorAll('span')).find(span => span.innerText.includes('Twitter Blue'));
 
   checkmark.click();
 
